@@ -1,0 +1,171 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: #FAFAF7;
+  --color-foreground: #1c1917;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+
+  /* Club Artizen Brand Colors */
+  --color-amber-brand: #E5A100;
+  --color-terracotta: #C75B39;
+  --color-cream: #FAFAF7;
+  --color-warm-gray: #78716C;
+
+  /* Chart Colors */
+  --color-chart-1: #E5A100;
+  --color-chart-2: #4A90D9;
+  --color-chart-3: #50B88C;
+  --color-chart-4: #9B6AD4;
+  --color-chart-5: #C75B39;
+  --color-chart-6: #3AAFA9;
+
+  /* shadcn colors */
+  --radius: 0.625rem;
+
+  --color-card: #FFFFFF;
+  --color-card-foreground: #1c1917;
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #1c1917;
+  --color-primary: #E5A100;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: #F5F0EB;
+  --color-secondary-foreground: #44403C;
+  --color-muted: #F5F0EB;
+  --color-muted-foreground: #78716C;
+  --color-accent: #F5F0EB;
+  --color-accent-foreground: #44403C;
+  --color-destructive: #DC2626;
+  --color-destructive-foreground: #FFFFFF;
+  --color-border: #E7E5E4;
+  --color-input: #E7E5E4;
+  --color-ring: #E5A100;
+
+  --color-sidebar: #FFFFFF;
+  --color-sidebar-foreground: #44403C;
+  --color-sidebar-primary: #E5A100;
+  --color-sidebar-primary-foreground: #FFFFFF;
+  --color-sidebar-accent: #F5F0EB;
+  --color-sidebar-accent-foreground: #44403C;
+  --color-sidebar-border: #E7E5E4;
+  --color-sidebar-ring: #E5A100;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D6D3D1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A8A29E;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(16px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+.animate-slide-in {
+  animation: slideInRight 0.3s ease-out;
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s ease-in-out infinite;
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading font */
+.font-heading {
+  font-family: var(--font-serif);
+}
+
+/* react-grid-layout styles */
+.react-grid-layout {
+  position: relative;
+}
+
+.react-grid-item {
+  transition: all 200ms ease;
+  transition-property: left, top, width, height;
+}
+
+.react-grid-item.react-draggable-dragging {
+  transition: none;
+  z-index: 100;
+  opacity: 0.9;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.react-grid-item.resizing {
+  transition: none;
+  z-index: 50;
+  opacity: 0.85;
+}
+
+.react-grid-placeholder {
+  background: #E5A100 !important;
+  opacity: 0.15 !important;
+  border-radius: 12px !important;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+}
+
+.react-resizable-handle::after {
+  content: '';
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #D6D3D1;
+  border-bottom: 2px solid #D6D3D1;
+  border-radius: 0 0 2px 0;
+}

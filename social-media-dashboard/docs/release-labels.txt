@@ -1,0 +1,7 @@
+# Weekly Release Labels (editable by students)
+
+# Put any labels/categories you want the TA to see here.
+# Examples:
+# - sprint: onboarding
+# - module: backend
+# - demo-ready: yes

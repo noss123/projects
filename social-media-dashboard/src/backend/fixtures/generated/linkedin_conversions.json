@@ -1,0 +1,139 @@
+{
+  "conversions": [
+    {
+      "date": "2025-04-02",
+      "conversion_id": "conv_20250402_001",
+      "campaign_id": "camp_B2B_leads",
+      "campaign_name": "B2B Lead Generation",
+      "conversion_type": "lead_submit",
+      "conversion_value": 50.0,
+      "currency": "USD",
+      "user_id": "user_12345",
+      "email": "john@example.com"
+    },
+    {
+      "date": "2025-04-02",
+      "conversion_id": "conv_20250402_002",
+      "campaign_id": "camp_retargeting",
+      "campaign_name": "Retargeting Campaign",
+      "conversion_type": "purchase",
+      "conversion_value": 150.0,
+      "currency": "USD",
+      "user_id": "user_12346",
+      "email": "jane@example.com"
+    },
+    {
+      "date": "2025-04-01",
+      "conversion_id": "conv_20250401_001",
+      "campaign_id": "camp_B2B_leads",
+      "campaign_name": "B2B Lead Generation",
+      "conversion_type": "lead_submit",
+      "conversion_value": 50.0,
+      "currency": "USD",
+      "user_id": "user_12347",
+      "email": "bob@example.com"
+    },
+    {
+      "date": "2025-03-31",
+      "conversion_id": "conv_20250331_001",
+      "campaign_id": "camp_awareness",
+      "campaign_name": "Brand Awareness",
+      "conversion_type": "page_view",
+      "conversion_value": 0.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2025-03-30",
+      "conversion_id": "conv_20250330_001",
+      "campaign_id": "camp_B2B_leads",
+      "campaign_name": "B2B Lead Generation",
+      "conversion_type": "lead_submit",
+      "conversion_value": 50.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2025-03-29",
+      "conversion_id": "conv_20250329_001",
+      "campaign_id": "camp_retargeting",
+      "campaign_name": "Retargeting Campaign",
+      "conversion_type": "purchase",
+      "conversion_value": 200.0,
+      "currency": "USD"
+    }
+  ],
+  "summary": {
+    "date": "2025-04-09",
+    "total_conversions": 218,
+    "total_conversion_value": 10900.0,
+    "avg_conversion_value": 50.0,
+    "conversion_rate": 2.8,
+    "unique_conversions": 205
+  },
+  "campaigns": [
+    {
+      "campaign_id": "camp_B2B_leads",
+      "campaign_name": "B2B Lead Generation",
+      "spend": 5000.0,
+      "conversions": 95,
+      "conversion_value": 4750.0,
+      "cpc": 52.63,
+      "roas": 0.95,
+      "ctr": 3.2,
+      "impressions": 125000,
+      "clicks": 4000,
+      "status": "active"
+    },
+    {
+      "campaign_id": "camp_awareness",
+      "campaign_name": "Brand Awareness",
+      "spend": 3000.0,
+      "conversions": 45,
+      "conversion_value": 1350.0,
+      "cpc": 66.67,
+      "roas": 0.45,
+      "ctr": 2.1,
+      "impressions": 85000,
+      "clicks": 1800,
+      "status": "active"
+    },
+    {
+      "campaign_id": "camp_retargeting",
+      "campaign_name": "Retargeting Campaign",
+      "spend": 2000.0,
+      "conversions": 78,
+      "conversion_value": 2340.0,
+      "cpc": 25.64,
+      "roas": 1.17,
+      "ctr": 4.8,
+      "impressions": 45000,
+      "clicks": 2160,
+      "status": "active"
+    }
+  ],
+  "roi_data": [
+    {
+      "campaign_id": "camp_B2B_leads",
+      "campaign_name": "B2B Lead Generation",
+      "total_spend": 5000.0,
+      "total_revenue": 9500.0,
+      "payback_period_days": 15,
+      "break_even_date": "2025-03-25"
+    },
+    {
+      "campaign_id": "camp_awareness",
+      "campaign_name": "Brand Awareness",
+      "total_spend": 3000.0,
+      "total_revenue": 4200.0,
+      "payback_period_days": 22,
+      "break_even_date": "2025-03-18"
+    },
+    {
+      "campaign_id": "camp_retargeting",
+      "campaign_name": "Retargeting Campaign",
+      "total_spend": 2000.0,
+      "total_revenue": 3500.0,
+      "payback_period_days": 12,
+      "break_even_date": "2025-03-28"
+    }
+  ]
+}

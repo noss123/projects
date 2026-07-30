@@ -1,0 +1,6 @@
+# Backend database settings
+MONGODB_URI=
+
+# Instagram/Facebook insights collections
+INSTAGRAM_COLLECTION_NAME=instagram_insights_data
+FACEBOOK_COLLECTION_NAME=facebook_insights_data

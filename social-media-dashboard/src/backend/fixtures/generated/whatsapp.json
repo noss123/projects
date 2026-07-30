@@ -1,0 +1,589 @@
+{
+  "overview": {
+    "conversations": 4442,
+    "conversations_change": 2.0,
+    "messages_sent": 19715,
+    "messages_sent_change": 19.4,
+    "messages_received": 8035,
+    "messages_received_change": -2.9,
+    "messages_delivered": 19551,
+    "delivery_rate": 99.4,
+    "messages_read": 15186,
+    "read_rate": 81.0,
+    "avg_response_time_minutes": 22.8,
+    "avg_response_time_change": -3.9,
+    "period_days": 30
+  },
+  "message_volume": {
+    "series": [
+      {
+        "date": "2026-03-08",
+        "value": 186
+      },
+      {
+        "date": "2026-03-09",
+        "value": 191
+      },
+      {
+        "date": "2026-03-10",
+        "value": 448
+      },
+      {
+        "date": "2026-03-11",
+        "value": 375
+      },
+      {
+        "date": "2026-03-12",
+        "value": 109
+      },
+      {
+        "date": "2026-03-13",
+        "value": 396
+      },
+      {
+        "date": "2026-03-14",
+        "value": 164
+      },
+      {
+        "date": "2026-03-15",
+        "value": 290
+      },
+      {
+        "date": "2026-03-16",
+        "value": 424
+      },
+      {
+        "date": "2026-03-17",
+        "value": 180
+      },
+      {
+        "date": "2026-03-18",
+        "value": 355
+      },
+      {
+        "date": "2026-03-19",
+        "value": 415
+      },
+      {
+        "date": "2026-03-20",
+        "value": 155
+      },
+      {
+        "date": "2026-03-21",
+        "value": 498
+      },
+      {
+        "date": "2026-03-22",
+        "value": 496
+      },
+      {
+        "date": "2026-03-23",
+        "value": 294
+      },
+      {
+        "date": "2026-03-24",
+        "value": 361
+      },
+      {
+        "date": "2026-03-25",
+        "value": 434
+      },
+      {
+        "date": "2026-03-26",
+        "value": 212
+      },
+      {
+        "date": "2026-03-27",
+        "value": 340
+      },
+      {
+        "date": "2026-03-28",
+        "value": 491
+      },
+      {
+        "date": "2026-03-29",
+        "value": 320
+      },
+      {
+        "date": "2026-03-30",
+        "value": 293
+      },
+      {
+        "date": "2026-03-31",
+        "value": 239
+      },
+      {
+        "date": "2026-04-01",
+        "value": 104
+      },
+      {
+        "date": "2026-04-02",
+        "value": 128
+      },
+      {
+        "date": "2026-04-03",
+        "value": 255
+      },
+      {
+        "date": "2026-04-04",
+        "value": 399
+      },
+      {
+        "date": "2026-04-05",
+        "value": 422
+      },
+      {
+        "date": "2026-04-06",
+        "value": 126
+      }
+    ],
+    "total_sent": 5014,
+    "total_received": 12177,
+    "period_days": 30
+  },
+  "conversations": {
+    "series": [
+      {
+        "date": "2026-03-08",
+        "value": 96
+      },
+      {
+        "date": "2026-03-09",
+        "value": 166
+      },
+      {
+        "date": "2026-03-10",
+        "value": 42
+      },
+      {
+        "date": "2026-03-11",
+        "value": 172
+      },
+      {
+        "date": "2026-03-12",
+        "value": 79
+      },
+      {
+        "date": "2026-03-13",
+        "value": 125
+      },
+      {
+        "date": "2026-03-14",
+        "value": 129
+      },
+      {
+        "date": "2026-03-15",
+        "value": 83
+      },
+      {
+        "date": "2026-03-16",
+        "value": 161
+      },
+      {
+        "date": "2026-03-17",
+        "value": 137
+      },
+      {
+        "date": "2026-03-18",
+        "value": 45
+      },
+      {
+        "date": "2026-03-19",
+        "value": 199
+      },
+      {
+        "date": "2026-03-20",
+        "value": 196
+      },
+      {
+        "date": "2026-03-21",
+        "value": 174
+      },
+      {
+        "date": "2026-03-22",
+        "value": 124
+      },
+      {
+        "date": "2026-03-23",
+        "value": 133
+      },
+      {
+        "date": "2026-03-24",
+        "value": 40
+      },
+      {
+        "date": "2026-03-25",
+        "value": 85
+      },
+      {
+        "date": "2026-03-26",
+        "value": 95
+      },
+      {
+        "date": "2026-03-27",
+        "value": 73
+      },
+      {
+        "date": "2026-03-28",
+        "value": 57
+      },
+      {
+        "date": "2026-03-29",
+        "value": 185
+      },
+      {
+        "date": "2026-03-30",
+        "value": 182
+      },
+      {
+        "date": "2026-03-31",
+        "value": 56
+      },
+      {
+        "date": "2026-04-01",
+        "value": 187
+      },
+      {
+        "date": "2026-04-02",
+        "value": 60
+      },
+      {
+        "date": "2026-04-03",
+        "value": 186
+      },
+      {
+        "date": "2026-04-04",
+        "value": 195
+      },
+      {
+        "date": "2026-04-05",
+        "value": 172
+      },
+      {
+        "date": "2026-04-06",
+        "value": 123
+      }
+    ],
+    "total": 1873,
+    "user_initiated": 1287,
+    "business_initiated": 1335,
+    "period_days": 30
+  },
+  "template_performance": {
+    "templates": [
+      {
+        "template_name": "order_confirmation",
+        "sent": 1174,
+        "delivered": 4112,
+        "read": 3388,
+        "delivery_rate": 98.7,
+        "read_rate": 77.1,
+        "category": "UTILITY"
+      },
+      {
+        "template_name": "welcome_message",
+        "sent": 1210,
+        "delivered": 1267,
+        "read": 1727,
+        "delivery_rate": 98.8,
+        "read_rate": 83.9,
+        "category": "MARKETING"
+      },
+      {
+        "template_name": "shipping_update",
+        "sent": 1186,
+        "delivered": 2746,
+        "read": 1086,
+        "delivery_rate": 96.4,
+        "read_rate": 87.5,
+        "category": "UTILITY"
+      },
+      {
+        "template_name": "promotional_offer",
+        "sent": 7270,
+        "delivered": 5589,
+        "read": 4373,
+        "delivery_rate": 94.7,
+        "read_rate": 64.0,
+        "category": "MARKETING"
+      }
+    ],
+    "period_days": 30
+  },
+  "response_time": {
+    "series": [
+      {
+        "date": "2026-03-08",
+        "value": 37.96
+      },
+      {
+        "date": "2026-03-09",
+        "value": 14.99
+      },
+      {
+        "date": "2026-03-10",
+        "value": 9.78
+      },
+      {
+        "date": "2026-03-11",
+        "value": 13.29
+      },
+      {
+        "date": "2026-03-12",
+        "value": 17.03
+      },
+      {
+        "date": "2026-03-13",
+        "value": 32.54
+      },
+      {
+        "date": "2026-03-14",
+        "value": 25.8
+      },
+      {
+        "date": "2026-03-15",
+        "value": 28.58
+      },
+      {
+        "date": "2026-03-16",
+        "value": 37.9
+      },
+      {
+        "date": "2026-03-17",
+        "value": 29.43
+      },
+      {
+        "date": "2026-03-18",
+        "value": 31.47
+      },
+      {
+        "date": "2026-03-19",
+        "value": 34.35
+      },
+      {
+        "date": "2026-03-20",
+        "value": 20.84
+      },
+      {
+        "date": "2026-03-21",
+        "value": 33.14
+      },
+      {
+        "date": "2026-03-22",
+        "value": 37.76
+      },
+      {
+        "date": "2026-03-23",
+        "value": 28.92
+      },
+      {
+        "date": "2026-03-24",
+        "value": 15.28
+      },
+      {
+        "date": "2026-03-25",
+        "value": 3.9
+      },
+      {
+        "date": "2026-03-26",
+        "value": 24.33
+      },
+      {
+        "date": "2026-03-27",
+        "value": 15.15
+      },
+      {
+        "date": "2026-03-28",
+        "value": 21.25
+      },
+      {
+        "date": "2026-03-29",
+        "value": 32.76
+      },
+      {
+        "date": "2026-03-30",
+        "value": 15.87
+      },
+      {
+        "date": "2026-03-31",
+        "value": 34.99
+      },
+      {
+        "date": "2026-04-01",
+        "value": 14.87
+      },
+      {
+        "date": "2026-04-02",
+        "value": 9.63
+      },
+      {
+        "date": "2026-04-03",
+        "value": 32.02
+      },
+      {
+        "date": "2026-04-04",
+        "value": 6.77
+      },
+      {
+        "date": "2026-04-05",
+        "value": 7.69
+      },
+      {
+        "date": "2026-04-06",
+        "value": 32.23
+      }
+    ],
+    "avg_minutes": 12.2,
+    "median_minutes": 14.5,
+    "p95_minutes": 44.3,
+    "period_days": 30
+  },
+  "quality": {
+    "quality_rating": "GREEN",
+    "messaging_limit": "TIER_3",
+    "phone_number_status": "CONNECTED",
+    "current_tier": "100K messages/day"
+  },
+  "message_distribution": {
+    "hourly": [
+      {
+        "hour": 0,
+        "sent": 23,
+        "received": 22
+      },
+      {
+        "hour": 1,
+        "sent": 19,
+        "received": 18
+      },
+      {
+        "hour": 2,
+        "sent": 23,
+        "received": 12
+      },
+      {
+        "hour": 3,
+        "sent": 26,
+        "received": 20
+      },
+      {
+        "hour": 4,
+        "sent": 23,
+        "received": 13
+      },
+      {
+        "hour": 5,
+        "sent": 18,
+        "received": 8
+      },
+      {
+        "hour": 6,
+        "sent": 19,
+        "received": 10
+      },
+      {
+        "hour": 7,
+        "sent": 20,
+        "received": 18
+      },
+      {
+        "hour": 8,
+        "sent": 22,
+        "received": 12
+      },
+      {
+        "hour": 9,
+        "sent": 80,
+        "received": 63
+      },
+      {
+        "hour": 10,
+        "sent": 10,
+        "received": 42
+      },
+      {
+        "hour": 11,
+        "sent": 57,
+        "received": 9
+      },
+      {
+        "hour": 12,
+        "sent": 44,
+        "received": 53
+      },
+      {
+        "hour": 13,
+        "sent": 51,
+        "received": 60
+      },
+      {
+        "hour": 14,
+        "sent": 43,
+        "received": 77
+      },
+      {
+        "hour": 15,
+        "sent": 20,
+        "received": 51
+      },
+      {
+        "hour": 16,
+        "sent": 17,
+        "received": 50
+      },
+      {
+        "hour": 17,
+        "sent": 45,
+        "received": 62
+      },
+      {
+        "hour": 18,
+        "sent": 10,
+        "received": 19
+      },
+      {
+        "hour": 19,
+        "sent": 19,
+        "received": 14
+      },
+      {
+        "hour": 20,
+        "sent": 11,
+        "received": 23
+      },
+      {
+        "hour": 21,
+        "sent": 21,
+        "received": 14
+      },
+      {
+        "hour": 22,
+        "sent": 27,
+        "received": 24
+      },
+      {
+        "hour": 23,
+        "sent": 25,
+        "received": 25
+      }
+    ],
+    "busiest_hour": 11,
+    "quietest_hour": 4,
+    "period_days": 30
+  },
+  "limitations": {
+    "unsupported": [
+      {
+        "metric": "demographics",
+        "reason": "WhatsApp Business API does not expose user demographic data",
+        "available_alternative": "Use Instagram demographics for audience insights"
+      },
+      {
+        "metric": "reach",
+        "reason": "WhatsApp does not have a public reach metric; messages are 1-to-1",
+        "available_alternative": "Use delivery_rate and read_rate as proxies"
+      }
+    ],
+    "note": "WhatsApp Business API provides messaging metrics only."
+  }
+}

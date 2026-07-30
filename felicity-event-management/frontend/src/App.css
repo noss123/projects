@@ -1,0 +1,219 @@
+* {                                                                       
+  margin: 0;                                                              
+  padding: 0;                                                             
+  box-sizing: border-box;                                                 
+}                                                                         
+                                                                          
+body {                                                                    
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',   
+'Oxygen',                                                                   
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',   
+    sans-serif;                                                           
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);          
+  min-height: 100vh;                                                      
+  padding: 20px;                                                          
+}                                                                         
+                                                                          
+.app {                                                                    
+  min-height: 100vh;                                                      
+}                                                                         
+                                                                          
+.container {                                                              
+  max-width: 800px;                                                       
+  margin: 0 auto;                                                         
+}                                                                         
+                                                                          
+.app-header {                                                             
+  text-align: center;                                                     
+  color: white;                                                           
+  margin-bottom: 40px;                                                    
+  padding: 30px;                                                          
+}                                                                         
+                                                                          
+.app-header h1 {                                                          
+  font-size: 3rem;                                                        
+  margin-bottom: 10px;                                                    
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);                               
+}                                                                         
+                                                                          
+.app-header p {                                                           
+  font-size: 1.1rem;                                                      
+  opacity: 0.9;                                                           
+}                                                                         
+                                                                          
+.app-content {                                                            
+  background: white;                                                      
+  border-radius: 20px;                                                    
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);                                
+  overflow: hidden;                                                       
+}                                                                         
+                                                                          
+.form-section,                                                            
+.tasks-section {                                                          
+  padding: 30px;                                                          
+}                                                                         
+                                                                          
+.form-section {                                                           
+  background: #f8f9fa;                                                    
+  border-bottom: 1px solid #e0e0e0;                                       
+}                                                                         
+                                                                          
+.form-section h2,                                                         
+.tasks-section h2 {                                                       
+  margin-bottom: 20px;                                                    
+  color: #333;                                                            
+  font-size: 1.5rem;                                                      
+}                                                                         
+                                                                          
+.task-form .form-group {                                                  
+  margin-bottom: 15px;                                                    
+}                                                                         
+                                                                          
+.task-form input,                                                         
+.task-form textarea {                                                     
+  width: 100%;                                                            
+  padding: 12px 15px;                                                     
+  border: 2px solid #e0e0e0;                                              
+  border-radius: 8px;                                                     
+  font-size: 1rem;                                                        
+  font-family: inherit;                                                   
+  transition: border-color 0.3s;                                          
+}                                                                         
+                                                                          
+.task-form input:focus,                                                   
+.task-form textarea:focus {                                               
+  outline: none;                                                          
+  border-color: #667eea;                                                  
+}                                                                         
+                                                                          
+.task-form textarea {                                                     
+  resize: vertical;                                                       
+}                                                                         
+                                                                          
+.btn-submit {                                                             
+  width: 100%;                                                            
+  padding: 12px;                                                          
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);          
+  color: white;                                                           
+  border: none;                                                           
+  border-radius: 8px;                                                     
+  font-size: 1rem;                                                        
+  font-weight: 600;                                                       
+  cursor: pointer;                                                        
+  transition: transform 0.2s, box-shadow 0.2s;                            
+}                                                                         
+                                                                          
+.btn-submit:hover {                                                       
+  transform: translateY(-2px);                                            
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);                        
+}                                                                         
+                                                                          
+.btn-submit:active {                                                      
+  transform: translateY(0);                                               
+}                                                                         
+                                                                          
+.tasks-list {                                                             
+  display: flex;                                                          
+  flex-direction: column;                                                 
+  gap: 15px;                                                              
+}                                                                         
+                                                                          
+.task-item {                                                              
+  display: flex;                                                          
+  justify-content: space-between;                                         
+  align-items: center;                                                    
+  padding: 20px;                                                          
+  background: #f8f9fa;                                                    
+  border-radius: 10px;                                                    
+  border-left: 4px solid #667eea;                                         
+  transition: transform 0.2s, box-shadow 0.2s;                            
+}                                                                         
+                                                                          
+.task-item:hover {                                                        
+  transform: translateX(5px);                                             
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);                                 
+}                                                                         
+                                                                          
+.task-content {                                                           
+  flex: 1;                                                                
+}                                                                         
+                                                                          
+.task-content h3 {                                                        
+  margin-bottom: 5px;                                                     
+  font-size: 1.2rem;                                                      
+}                                                                         
+                                                                          
+.task-content p {                                                         
+  color: #666;                                                            
+  margin-bottom: 8px;                                                     
+}                                                                         
+                                                                          
+.task-content small {                                                     
+  color: #999;                                                            
+  font-size: 0.85rem;                                                     
+}                                                                         
+                                                                          
+.task-actions {                                                           
+  display: flex;                                                          
+  gap: 10px;                                                              
+}                                                                         
+                                                                          
+.task-actions button {                                                    
+  padding: 8px 16px;                                                      
+  border: none;                                                           
+  border-radius: 6px;                                                     
+  cursor: pointer;                                                        
+  font-size: 0.9rem;                                                      
+  transition: transform 0.2s, opacity 0.2s;                               
+}                                                                         
+                                                                          
+.task-actions button:hover {                                              
+  transform: scale(1.05);                                                 
+  opacity: 0.9;                                                           
+}                                                                         
+                                                                          
+.btn-complete {                                                           
+  background: #10b981;                                                    
+  color: white;                                                           
+}                                                                         
+                                                                          
+.btn-undo {                                                               
+  background: #f59e0b;                                                    
+  color: white;                                                           
+}                                                                         
+                                                                          
+.btn-delete {                                                             
+  background: #ef4444;                                                    
+  color: white;                                                           
+}                                                                         
+                                                                          
+.loading,                                                                 
+.error,                                                                   
+.empty-state {                                                            
+  text-align: center;                                                     
+  padding: 40px;                                                          
+  color: #666;                                                            
+  font-size: 1.1rem;                                                      
+}                                                                         
+                                                                          
+.error {                                                                  
+  color: #ef4444;                                                         
+  background: #fee2e2;                                                    
+  border-radius: 8px;                                                     
+}                                                                         
+                                                                          
+@media (max-width: 768px) {                                               
+  .app-header h1 {                                                        
+    font-size: 2rem;                                                      
+  }                                                                       
+                                                                          
+  .task-item {                                                            
+    flex-direction: column;                                               
+    gap: 15px;                                                            
+  }                                                                       
+                                                                          
+  .task-actions {                                                         
+    width: 100%;                                                          
+    justify-content: space-between;                                       
+  }                                                                       
+}

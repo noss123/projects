@@ -1,0 +1,8 @@
+# .gitignore
+
+.venv/
+__pycache__/
+*.csv
+data/raw/
+.env
+chroma_db/

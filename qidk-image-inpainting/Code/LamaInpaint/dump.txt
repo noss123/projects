@@ -1,0 +1,225 @@
+---------------------------- PROCESS STARTED (16558) for package com.qidk.lamainpaint ----------------------------
+2025-10-24 13:03:24.274 16558-16558 Compatibil...geReporter com.qidk.lamainpaint                 D  Compat change id reported: 242716250; UID 10415; state: ENABLED
+2025-10-24 13:03:24.284 16558-16558 libc                    com.qidk.lamainpaint                 W  Access denied finding property "ro.odm.prev.product.name"
+2025-10-24 13:03:24.445 16558-16558 nativeloader            com.qidk.lamainpaint                 D  Configuring clns-4 for other apk /data/app/~~fzm2FUN6Cfti21-yFWBzkw==/com.qidk.lamainpaint-b49kUU_2a9cFwPXqV-9iMA==/base.apk. target_sdk_version=36, uses_libraries=libOpenCL.so, library_path=/data/app/~~fzm2FUN6Cfti21-yFWBzkw==/com.qidk.lamainpaint-b49kUU_2a9cFwPXqV-9iMA==/lib/arm64:/data/app/~~fzm2FUN6Cfti21-yFWBzkw==/com.qidk.lamainpaint-b49kUU_2a9cFwPXqV-9iMA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.qidk.lamainpaint
+2025-10-24 13:03:24.462 16558-16558 nativeloader            com.qidk.lamainpaint                 D  Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+2025-10-24 13:03:24.472 16558-16558 GraphicsEnvironment     com.qidk.lamainpaint                 V  Currently set values for:
+2025-10-24 13:03:24.472 16558-16558 GraphicsEnvironment     com.qidk.lamainpaint                 V    angle_gl_driver_selection_pkgs=[]
+2025-10-24 13:03:24.472 16558-16558 GraphicsEnvironment     com.qidk.lamainpaint                 V    angle_gl_driver_selection_values=[]
+2025-10-24 13:03:24.473 16558-16558 GraphicsEnvironment     com.qidk.lamainpaint                 V  ANGLE GameManagerService for com.qidk.lamainpaint: false
+2025-10-24 13:03:24.474 16558-16558 GraphicsEnvironment     com.qidk.lamainpaint                 V  com.qidk.lamainpaint is not listed in per-application setting
+2025-10-24 13:03:24.474 16558-16558 GraphicsEnvironment     com.qidk.lamainpaint                 V  Neither updatable production driver nor prerelease driver is supported.
+2025-10-24 13:03:24.484 16558-16558 ResourcesManagerExtImpl com.qidk.lamainpaint                 D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2025-10-24 13:03:24.490 16558-16558 nativeloader            com.qidk.lamainpaint                 D  Load libSchedAssistJni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2025-10-24 13:03:24.491 16558-16558 ExtensionsLoader        com.qidk.lamainpaint                 D  createInstance(64bit) : createExtendedFactory
+2025-10-24 13:03:24.491 16558-16558 ExtensionsLoader        com.qidk.lamainpaint                 D  Opened libSchedAssistExtImpl.so
+2025-10-24 13:03:24.491 16558-16558 SchedAssist             com.qidk.lamainpaint                 E  ofbOpen failed with error=No such file or directory
+2025-10-24 13:03:24.491 16558-16558 SchedAssist             com.qidk.lamainpaint                 E  sysOpen failed with error=No such file or directory
+2025-10-24 13:03:24.491 16558-16558 SchedAssist             com.qidk.lamainpaint                 E  sharedImFd failed with error=Permission denied
+2025-10-24 13:03:24.497 16558-16558 OplusGraphicsEvent      com.qidk.lamainpaint                 D  OplusGraphicsEventListener create now!
+2025-10-24 13:03:24.499 16558-16558 OplusGraphicsEvent      com.qidk.lamainpaint                 D  addEventListener success!
+2025-10-24 13:03:24.501  2237-3881  ScrollOpti...rfService] system_server                        E  isScrollOptimEnable: pkgName = com.qidk.lamainpaint, output = Bundle[{pre_anim_enable=true, frame_insert_list=null, frame_insert_default_num=1, scroll_changed_enable_list=null}]
+2025-10-24 13:03:24.501 16558-16558 ScrollOpti...igManager] com.qidk.lamainpaint                 D  initOptConfig: pkg= com.qidk.lamainpaint, mOptEnable= true, mAnimAheadEnable= true, mInsertDefaultNum= 1, mFrameInsertEnableList= {}, mSCEnableList= []
+2025-10-24 13:03:24.525 16558-16558 callGcSupression        com.qidk.lamainpaint                 D  java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+2025-10-24 13:03:24.549 16558-16558 ResourcesManagerExtImpl com.qidk.lamainpaint                 D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2025-10-24 13:03:24.588 16558-16558 AppCompatDelegate       com.qidk.lamainpaint                 D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2025-10-24 13:03:24.638 16558-16558 oplus.andr...actoryImpl com.qidk.lamainpaint                 I  Unknow feature:IOplusTextViewRTLUtilForUG
+2025-10-24 13:03:24.645 16558-16558 nativeloader            com.qidk.lamainpaint                 D  Load liboplushwui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2025-10-24 13:03:24.688 16558-16558 idk.lamainpaint         com.qidk.lamainpaint                 I  hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/widget/ViewUtils; (domain=app) using reflection: allowed
+2025-10-24 13:03:24.695 16558-16558 ScrollOpti...tionHelper com.qidk.lamainpaint                 D  can't find the config file for optimizaiton
+2025-10-24 13:03:24.695 16558-16558 ScrollOpti...tionHelper com.qidk.lamainpaint                 D  will not debug for debug is false
+2025-10-24 13:03:24.696 16558-16558 Compatibil...geReporter com.qidk.lamainpaint                 D  Compat change id reported: 171228096; UID 10415; state: ENABLED
+2025-10-24 13:03:24.696 16558-16558 oplus.andr...actoryImpl com.qidk.lamainpaint                 I  get feature:IOplusDynamicVsyncFeature
+2025-10-24 13:03:24.696 16558-16558 oplus.andr...actoryImpl com.qidk.lamainpaint                 I  get feature:IOplusDynamicVsyncFeature
+2025-10-24 13:03:24.696 16558-16558 oplus.andr...actoryImpl com.qidk.lamainpaint                 I  get feature:IOplusDynamicVsyncFeature
+2025-10-24 13:03:24.706 16558-16558 OplusCusto...ionManager com.qidk.lamainpaint                 E  sInstance is null, start a new sInstance
+2025-10-24 13:03:24.712 16558-16558 Compatibil...geReporter com.qidk.lamainpaint                 D  Compat change id reported: 210923482; UID 10415; state: ENABLED
+2025-10-24 13:03:24.777 16558-16558 ScrollOpti...neManager] com.qidk.lamainpaint                 D  updateCurrentActivity: mCurrentActivityName=com.qidk.lamainpaint.MainActivity, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+2025-10-24 13:03:24.777 16558-16558 ActivityThread          com.qidk.lamainpaint                 D  ComponentInfo{com.qidk.lamainpaint/com.qidk.lamainpaint.MainActivity} checkFinished=false 2
+2025-10-24 13:03:24.778 16558-16558 ResourcesManagerExtImpl com.qidk.lamainpaint                 D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2025-10-24 13:03:24.780 16558-16558 OplusInputMethodUtil    com.qidk.lamainpaint                 D  init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+2025-10-24 13:03:24.780 16558-16558 OplusInputMethodUtil    com.qidk.lamainpaint                 D  updateDebugToClass InputMethodManager.DEBUG = false
+2025-10-24 13:03:24.780 16558-16558 OplusInputMethodUtil    com.qidk.lamainpaint                 D  updateDebugToClass ImeFocusController.DEBUG = false
+2025-10-24 13:03:24.780 16558-16558 OplusInputMethodUtil    com.qidk.lamainpaint                 D  updateDebugToClass BaseInputConnection.DEBUG = false
+2025-10-24 13:03:24.784 16558-16558 ExtensionsLoader        com.qidk.lamainpaint                 D  createInstance(64bit) : createExtendedFactory
+2025-10-24 13:03:24.784 16558-16558 ExtensionsLoader        com.qidk.lamainpaint                 D  Opened libguiextimpl.so
+2025-10-24 13:03:24.785 16558-16558 nativeloader            com.qidk.lamainpaint                 D  Load liboplusgui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2025-10-24 13:03:24.787 16558-16558 Compatibil...geReporter com.qidk.lamainpaint                 D  Compat change id reported: 237531167; UID 10415; state: DISABLED
+2025-10-24 13:03:24.791 16558-16558 DynamicFra...igManager] com.qidk.lamainpaint                 I  initFrameRateConfig: 
+                                                                                                    	levels: [120, 60]
+                                                                                                    	thresholds: [200]
+                                                                                                    	scrollbar fade frame rate: 0
+2025-10-24 13:03:24.791 16558-16558 DynamicFra...igManager] com.qidk.lamainpaint                 I  FRTCConfigManager: FRTC_CAPABILITY = 120, package name = com.qidk.lamainpaint, WINDOW_ANIMATION_SPEED_RATE = 10, SCROLL_ANIMATION_SPEED_RATE = 20, MuitiWindowIdleFramerate = 60, PACKAGE_ENABLE = false
+2025-10-24 13:03:24.791 16558-16558 DynamicFra...ontroller] com.qidk.lamainpaint                 I  init info: mPackageName = com.qidk.lamainpaint, mIsEnabled = false
+2025-10-24 13:03:24.792 16558-16558 WindowManager           com.qidk.lamainpaint                 D  Add to mViews: DecorView@289494[MainActivity],pkg= com.qidk.lamainpaint
+2025-10-24 13:03:24.794 16558-16667 ExtensionsLoader        com.qidk.lamainpaint                 D  createInstance(64bit) : createExtendedFactory
+2025-10-24 13:03:24.796 16558-16667 ExtensionsLoader        com.qidk.lamainpaint                 D  Opened libhwuiextimpl.so
+2025-10-24 13:03:24.797 16558-16558 ExtensionsLoader        com.qidk.lamainpaint                 D  createInstance(64bit) : createExtendedFactory
+2025-10-24 13:03:24.797 16558-16558 ExtensionsLoader        com.qidk.lamainpaint                 D  Opened libSchedAssistExtImpl.so
+2025-10-24 13:03:24.812 16558-16558 InputEventReceiver      com.qidk.lamainpaint                 D  Input log is disabled in InputEventReceiver.
+2025-10-24 13:03:24.813 16558-16558 callGcSupression        com.qidk.lamainpaint                 D  java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+2025-10-24 13:03:24.813 16558-16558 ResourcesManagerExtImpl com.qidk.lamainpaint                 D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2025-10-24 13:03:24.816 16558-16558 Choreographer           com.qidk.lamainpaint                 I  Skipped 36 frames!  The application may be doing too much work on its main thread.
+2025-10-24 13:03:24.816 16558-16558 Quality                 com.qidk.lamainpaint                 I  Skipped: false 4 cost 38.824326 refreshRate 8339543 bit true processName com.qidk.lamainpaint
+2025-10-24 13:03:24.819 16558-16558 OplusBracketLog         com.qidk.lamainpaint                 E  [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@f45ec7e
+2025-10-24 13:03:24.839 16558-16558 ViewRootImplExtImpl     com.qidk.lamainpaint                 D  wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.qidk.lamainpaint/com.qidk.lamainpaint.MainActivity
+2025-10-24 13:03:24.855 16558-16558 VRI[MainActivity]       com.qidk.lamainpaint                 D  relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:true, mSurfaceSize:Point(1080, 2400), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:1080, requestedHeight:2400, transformHint:0, lastTransformHint:-2147483648, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2400] display=[0,0][1080,2400] parentFrame=[0,0][0,0]}
+2025-10-24 13:03:24.855 16558-16558 VRI[MainActivity]       com.qidk.lamainpaint                 W  updateBlastSurfaceIfNeeded, surfaceSize:Point(1080, 2400), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+2025-10-24 13:03:24.866 16558-16558 BufferQueueConsumer     com.qidk.lamainpaint                 D  [](id:40ae00000000,api:0,p:-1,c:16558) connect: controlledByApp=false
+2025-10-24 13:03:24.868 16558-16558 ExtensionsLoader        com.qidk.lamainpaint                 D  createInstance(64bit) : createExtendedFactory
+2025-10-24 13:03:24.868 16558-16558 ExtensionsLoader        com.qidk.lamainpaint                 D  Opened libSchedAssistExtImpl.so
+2025-10-24 13:03:24.875 16558-16667 AdrenoGLES-0            com.qidk.lamainpaint                 I  QUALCOMM build                   : e7626cbb06, If33672715f
+                                                                                                    Build Date                       : 01/24/23
+                                                                                                    OpenGL ES Shader Compiler Version: EV031.35.01.12
+                                                                                                    Local Branch                     : 
+                                                                                                    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.9.14.11.00.00.571.148
+                                                                                                    Remote Branch                    : NONE
+                                                                                                    Reconstruct Branch               : NOTHING
+2025-10-24 13:03:24.875 16558-16667 AdrenoGLES-0            com.qidk.lamainpaint                 I  Build Config                     : S P 10.0.7 AArch64
+2025-10-24 13:03:24.876 16558-16667 AdrenoGLES-0            com.qidk.lamainpaint                 I  Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+2025-10-24 13:03:24.879 16558-16667 AdrenoGLES-0            com.qidk.lamainpaint                 I  PFP: 0x016ee201, ME: 0x00000000
+2025-10-24 13:03:24.894 16558-16667 BufferQueueProducer     com.qidk.lamainpaint                 D  [VRI[MainActivity]#0(BLAST Consumer)0](id:40ae00000000,api:1,p:16558,c:16558) connect: api=1 producerControlledByApp=true
+2025-10-24 13:03:24.894 16558-16667 OpenGLRenderer          com.qidk.lamainpaint                 E  Unable to match the desired swap behavior.
+2025-10-24 13:03:24.894 16558-16558 SurfaceControl          com.qidk.lamainpaint                 I   setExtendedRangeBrightness sc=Surface(name=com.qidk.lamainpaint/com.qidk.lamainpaint.MainActivity)/@0x950528a,currentBufferRatio=1.0,desiredRatio=1.0
+2025-10-24 13:03:24.923 16558-16667 BLASTBufferQueue        com.qidk.lamainpaint                 D  [VRI[MainActivity]#0](f:0,a:1) acquireNextBufferLocked size=1080x2400 mFrameNumber=1 applyTransaction=true mTimestamp=657675212271302(auto) mPendingTransactions.size=0 graphicBufferId=71116068487171 transform=0
+2025-10-24 13:03:24.924 16558-16667 VRI[MainActivity]       com.qidk.lamainpaint                 D  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+2025-10-24 13:03:24.924 16558-16558 VRI[MainActivity]       com.qidk.lamainpaint                 D  draw finished.
+2025-10-24 13:03:24.924 16558-16558 VRI[MainActivity]       com.qidk.lamainpaint                 D  reportDrawFinished
+2025-10-24 13:03:24.925 16558-16558 ViewRootImplExtImpl     com.qidk.lamainpaint                 D  setMaxDequeuedBufferCount: 2
+2025-10-24 13:03:24.926 16558-16558 Quality                 com.qidk.lamainpaint                 I  Skipped: false 8 cost 97.28406 refreshRate 11099314 bit true processName com.qidk.lamainpaint
+2025-10-24 13:03:24.931 16558-16558 VRI[MainActivity]       com.qidk.lamainpaint                 W  handleResized, msg:5, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+2025-10-24 13:03:24.944 16558-16667 VRI[MainActivity]       com.qidk.lamainpaint                 D  Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+2025-10-24 13:03:24.945 16558-16558 VRI[MainActivity]       com.qidk.lamainpaint                 D  draw finished.
+2025-10-24 13:03:24.946 16558-16558 VRI[MainActivity]       com.qidk.lamainpaint                 D  reportDrawFinished
+2025-10-24 13:03:24.947 16558-16558 VRI[MainActivity]       com.qidk.lamainpaint                 D  onFocusEvent true
+2025-10-24 13:03:24.968 16558-16558 Quality                 com.qidk.lamainpaint                 I  Skipped: false 1 cost 16.666155 refreshRate 11126337 bit true processName com.qidk.lamainpaint
+2025-10-24 13:03:24.986 16558-16558 Quality                 com.qidk.lamainpaint                 I  Skipped: false 1 cost 12.459378 refreshRate 11121150 bit true processName com.qidk.lamainpaint
+2025-10-24 13:03:25.961 16558-16703 OplusScrollToTopManager com.qidk.lamainpaint                 D  com.qidk.lamainpaint/com.qidk.lamainpaint.MainActivity,This DecorView@289494[MainActivity] change focus to true
+2025-10-24 13:03:26.308 16558-16566 idk.lamainpaint         com.qidk.lamainpaint                 I  Compiler allocated 6134KB to compile void android.view.ViewRootImpl.performTraversals()
+2025-10-24 13:03:29.746 16558-16558 AutofillManager         com.qidk.lamainpaint                 V  requestHideFillUi(null): anchor = null
+2025-10-24 13:03:29.750 16558-16558 OplusSyste...ureExtImpl com.qidk.lamainpaint                 D  get regionString is null Attempt to invoke virtual method 'android.content.ContentResolver android.content.Context.getContentResolver()' on a null object reference
+2025-10-24 13:03:29.750 16558-16558 OplusSyste...ureExtImpl com.qidk.lamainpaint                 D  regionString = null
+2025-10-24 13:03:29.754 16558-16703 OplusSyste...ureExtImpl com.qidk.lamainpaint                 D  regionString = null
+2025-10-24 13:03:29.815 16558-16558 OplusInput...erInternal com.qidk.lamainpaint                 D  get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@32e01d5
+2025-10-24 13:03:29.818 16558-16558 ViewRootImplExtImpl     com.qidk.lamainpaint                 D  the up motion event handled by client, just return
+2025-10-24 13:03:30.455 16558-16718 ProfileInstaller        com.qidk.lamainpaint                 D  Installing profile for com.qidk.lamainpaint
+2025-10-24 13:03:34.461 16558-16558 AutofillManager         com.qidk.lamainpaint                 V  requestHideFillUi(null): anchor = null
+2025-10-24 13:03:34.548 16558-16558 ViewRootImplExtImpl     com.qidk.lamainpaint                 D  the up motion event handled by client, just return
+2025-10-24 13:03:34.571 16558-16558 Quality                 com.qidk.lamainpaint                 I  Skipped: false 1 cost 14.679294 refreshRate 11116780 bit true processName com.qidk.lamainpaint
+2025-10-24 13:03:34.574 16558-16558 callGcSupression        com.qidk.lamainpaint                 D  java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+2025-10-24 13:03:34.578 16558-16558 callGcSupression        com.qidk.lamainpaint                 D  java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+2025-10-24 13:03:34.578 16558-16558 ScrollOpti...neManager] com.qidk.lamainpaint                 D  updateCurrentActivity: mCurrentActivityName=null, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+2025-10-24 13:03:34.613 16558-16558 VRI[MainActivity]       com.qidk.lamainpaint                 D  onFocusEvent false
+2025-10-24 13:03:35.619 16558-16703 OplusScrollToTopManager com.qidk.lamainpaint                 D  com.qidk.lamainpaint/com.qidk.lamainpaint.MainActivity,This DecorView@289494[MainActivity] change focus to false
+2025-10-24 13:03:37.224 16558-16558 callGcSupression        com.qidk.lamainpaint                 D  java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+2025-10-24 13:03:37.226  2237-2627  OplusThermalStats       system_server                        E  Error getting package info: com.qidk.lamainpaint
+2025-10-24 13:03:37.231 16558-16558 callGcSupression        com.qidk.lamainpaint                 D  java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+2025-10-24 13:03:37.232 16558-16558 Compatibil...geReporter com.qidk.lamainpaint                 D  Compat change id reported: 78294732; UID 10415; state: ENABLED
+2025-10-24 13:03:37.511 16558-16558 Quality                 com.qidk.lamainpaint                 I  DecodeBitmapInfo:decodeStream,216101563
+2025-10-24 13:03:37.532 16558-16558 ScrollOpti...neManager] com.qidk.lamainpaint                 D  updateCurrentActivity: mCurrentActivityName=com.qidk.lamainpaint.MainActivity, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+2025-10-24 13:03:37.532 16558-16558 ActivityThread          com.qidk.lamainpaint                 D  ComponentInfo{com.qidk.lamainpaint/com.qidk.lamainpaint.MainActivity} checkFinished=false 4
+2025-10-24 13:03:37.532 16558-16558 ResourcesManagerExtImpl com.qidk.lamainpaint                 D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2025-10-24 13:03:37.534 16558-16558 VRI[MainActivity]       com.qidk.lamainpaint                 D  onFocusEvent true
+2025-10-24 13:03:37.561 16558-16558 Quality                 com.qidk.lamainpaint                 I  Skipped: false 1 cost 14.694184 refreshRate 11116216 bit true processName com.qidk.lamainpaint
+2025-10-24 13:03:38.356 16558-16558 AutofillManager         com.qidk.lamainpaint                 V  requestHideFillUi(null): anchor = null
+2025-10-24 13:03:38.561 16558-16703 OplusScrollToTopManager com.qidk.lamainpaint                 D  com.qidk.lamainpaint/com.qidk.lamainpaint.MainActivity,This DecorView@289494[MainActivity] change focus to true
+2025-10-24 13:03:40.855 16558-16558 ViewRootImplExtImpl     com.qidk.lamainpaint                 D  the up motion event handled by client, just return
+2025-10-24 13:03:48.360 16558-16558 AutofillManager         com.qidk.lamainpaint                 V  requestHideFillUi(null): anchor = null
+2025-10-24 13:03:48.453 16558-16558 ViewRootImplExtImpl     com.qidk.lamainpaint                 D  the up motion event handled by client, just return
+2025-10-24 13:03:48.469 16558-16558 LAMA                    com.qidk.lamainpaint                 I  Starting inpainting with TFLite
+2025-10-24 13:03:49.200 16558-16558 nativeloader            com.qidk.lamainpaint                 D  Load /data/app/~~fzm2FUN6Cfti21-yFWBzkw==/com.qidk.lamainpaint-b49kUU_2a9cFwPXqV-9iMA==/base.apk!/lib/arm64-v8a/libtensorflowlite_jni.so using class loader ns clns-4 (caller=/data/app/~~fzm2FUN6Cfti21-yFWBzkw==/com.qidk.lamainpaint-b49kUU_2a9cFwPXqV-9iMA==/base.apk!classes5.dex): ok
+2025-10-24 13:03:49.201 16558-16558 TensorFlowLite          com.qidk.lamainpaint                 I  Loaded native library: tensorflowlite_jni
+2025-10-24 13:03:49.202 16558-16558 nativeloader            com.qidk.lamainpaint                 D  Load libtensorflowlite_jni_gms_client.so using class loader ns clns-4 (caller=/data/app/~~fzm2FUN6Cfti21-yFWBzkw==/com.qidk.lamainpaint-b49kUU_2a9cFwPXqV-9iMA==/base.apk!classes5.dex): dlopen failed: library "libtensorflowlite_jni_gms_client.so" not found
+2025-10-24 13:03:49.202 16558-16558 TensorFlowLite          com.qidk.lamainpaint                 I  Didn't load native library: tensorflowlite_jni_gms_client
+2025-10-24 13:03:49.204 16558-16558 tflite                  com.qidk.lamainpaint                 I  Initialized TensorFlow Lite runtime.
+2025-10-24 13:03:49.206 16558-16558 libc                    com.qidk.lamainpaint                 W  Access denied finding property "ro.hardware.chipname"
+2025-10-24 13:03:49.208 16558-16558 tflite                  com.qidk.lamainpaint                 I  Created TensorFlow Lite XNNPACK delegate for CPU.
+2025-10-24 13:03:49.216 16558-16558 tflite                  com.qidk.lamainpaint                 I  Replacing 266 out of 340 node(s) with delegate (TfLiteXNNPackDelegate) node, yielding 41 partitions for the whole graph.
+2025-10-24 13:03:49.415 16558-16558 LamaInpainting          com.qidk.lamainpaint                 I  Model loaded successfully
+2025-10-24 13:03:49.415 16558-16558 LamaInpainting          com.qidk.lamainpaint                 I  Input shape: [1, 512, 512, 3]
+2025-10-24 13:03:49.415 16558-16558 LamaInpainting          com.qidk.lamainpaint                 I  Model size: 512x512
+2025-10-24 13:03:49.415 16558-16558 LamaInpainting          com.qidk.lamainpaint                 I  Input data type: FLOAT32
+2025-10-24 13:03:49.415 16558-16558 LamaInpainting          com.qidk.lamainpaint                 I  Output data type: FLOAT32
+2025-10-24 13:03:49.415 16558-16558 LamaInpainting          com.qidk.lamainpaint                 I  Active delegates: []
+2025-10-24 13:03:49.416 16558-16558 LAMA                    com.qidk.lamainpaint                 I  Model initialized with backend: CPU-only (XNNPack)
+2025-10-24 13:03:49.492 16558-16569 System                  com.qidk.lamainpaint                 W  A resource failed to call close. 
+2025-10-24 13:03:51.498 16558-16765 Quality                 com.qidk.lamainpaint                 I  stackInfo :----- pid 16558 at 2025-10-24 13:03:51.470 -----;Cmd line: com.qidk.lamainpaint;"main" prio=5 tid=2 RUNNABLE sysTid=16558;  at org.tensorflow.lite.NativeInterpreterWrapper.run(Native Method);  at org.tensorflow.lite.NativeInterpreterWrapper.run(NativeInterpreterWrapper.java:264);  at org.tensorflow.lite.InterpreterImpl.runForMultipleInputsOutputs(InterpreterImpl.java:101);  at org.tensorflow.lite.Interpreter.runForMultipleInputsOutputs(Interpreter.java:95);  at com.qidk.lamainpaint.LamaInpainting.runInference(LamaInpainting.java:259);  at com.qidk.lamainpaint.LamaInpainting.inpaint(LamaInpainting.java:147);  at com.qidk.lamainpaint.MainActivity.runInpainting(MainActivity.kt:129);  at com.qidk.lamainpaint.MainActivity.onCreate$lambda$6(MainActivity.kt:75);  at com.qidk.lamainpaint.MainActivity.$r8$lambda$44GWxGse6PCzRe0U0gke2Gl3l4k(Unknown Source:0);  at com.qidk.lamainpaint.MainActivity$$ExternalSyntheticLambda3.onClick(D8$$SyntheticClass:0);  at android.view.View.performClick(View.java:7740);  at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218);  at android.view.View.performClickInternal(View.java:7710);  at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0);  at android.view.View$PerformClick.run(View.java:30629);  at android.os.Handler.handleCallback(Handler.java:958);  at android.os.Handler.dispatchMessage(Handler.java:99);  at android.os.Looper.loopOnce(Looper.java:257);  at android.os.Looper.loop(Looper.java:368);  at android.app.ActivityThread.main(ActivityThread.java:8839);  at java.lang.reflect.Method.invoke(Native Method);  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:572);  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1049);
+2025-10-24 13:03:54.502 16558-16765 Quality                 com.qidk.lamainpaint                 I  stackInfo :----- pid 16558 at 2025-10-24 13:03:54.500 -----;Cmd line: com.qidk.lamainpaint;"main" prio=5 tid=2 RUNNABLE sysTid=16558;  at org.tensorflow.lite.NativeInterpreterWrapper.run(Native Method);  at org.tensorflow.lite.NativeInterpreterWrapper.run(NativeInterpreterWrapper.java:264);  at org.tensorflow.lite.InterpreterImpl.runForMultipleInputsOutputs(InterpreterImpl.java:101);  at org.tensorflow.lite.Interpreter.runForMultipleInputsOutputs(Interpreter.java:95);  at com.qidk.lamainpaint.LamaInpainting.runInference(LamaInpainting.java:259);  at com.qidk.lamainpaint.LamaInpainting.inpaint(LamaInpainting.java:147);  at com.qidk.lamainpaint.MainActivity.runInpainting(MainActivity.kt:129);  at com.qidk.lamainpaint.MainActivity.onCreate$lambda$6(MainActivity.kt:75);  at com.qidk.lamainpaint.MainActivity.$r8$lambda$44GWxGse6PCzRe0U0gke2Gl3l4k(Unknown Source:0);  at com.qidk.lamainpaint.MainActivity$$ExternalSyntheticLambda3.onClick(D8$$SyntheticClass:0);  at android.view.View.performClick(View.java:7740);  at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218);  at android.view.View.performClickInternal(View.java:7710);  at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0);  at android.view.View$PerformClick.run(View.java:30629);  at android.os.Handler.handleCallback(Handler.java:958);  at android.os.Handler.dispatchMessage(Handler.java:99);  at android.os.Looper.loopOnce(Looper.java:257);  at android.os.Looper.loop(Looper.java:368);  at android.app.ActivityThread.main(ActivityThread.java:8839);  at java.lang.reflect.Method.invoke(Native Method);  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:572);  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1049);
+2025-10-24 13:04:01.552 16558-16563 idk.lamainpaint         com.qidk.lamainpaint                 I  Thread[2,tid=16563,WaitingInMainSignalCatcherLoop,Thread*=0xb40000746c026000,peer=0x27800d0,"Signal Catcher"]: reacting to signal 3
+2025-10-24 13:04:01.552 16558-16563 idk.lamainpaint         com.qidk.lamainpaint                 I  
+2025-10-24 13:04:01.835 16558-16563 idk.lamainpaint         com.qidk.lamainpaint                 I  Wrote stack traces to tombstoned
+2025-10-24 13:04:03.380  2237-16901 ActivityManager         system_server                        E  ANR in com.qidk.lamainpaint
+                                                                                                    PID: 16558
+                                                                                                    Reason: App requested: MainThread worked timeout
+                                                                                                    ErrorId: b999fda2-0213-464d-bfe9-19eecf51f168
+                                                                                                    Frozen: false
+                                                                                                    Load: 0.01 / 0.07 / 0.04
+                                                                                                    ----- Output from /proc/pressure/memory -----
+                                                                                                    some avg10=1.39 avg60=0.56 avg300=0.71 total=2149604834
+                                                                                                    full avg10=0.69 avg60=0.22 avg300=0.15 total=651495709
+                                                                                                    ----- End output from /proc/pressure/memory -----
+                                                                                                    ----- Output from /proc/pressure/cpu -----
+                                                                                                    some avg10=4.29 avg60=3.99 avg300=4.62 total=19841616765
+                                                                                                    ----- End output from /proc/pressure/cpu -----
+                                                                                                    ----- Output from /proc/pressure/io -----
+                                                                                                    some avg10=0.32 avg60=0.36 avg300=0.56 total=4057792120
+                                                                                                    full avg10=0.23 avg60=0.23 avg300=0.20 total=2377155807
+                                                                                                    ----- End output from /proc/pressure/io -----
+                                                                                                    
+                                                                                                    CPU usage from 136719ms to -2ms ago (2025-10-24 13:01:44.825 to 2025-10-24 13:04:01.546):
+                                                                                                      17% 2237/system_server: 9% user + 8% kernel / faults: 41135 minor 4 major
+                                                                                                      16% 2016/media.swcodec: 15% user + 1.5% kernel / faults: 9656 minor 2 major
+                                                                                                      10% 1383/surfaceflinger: 6.9% user + 3.5% kernel / faults: 5253 minor 7 major
+                                                                                                      6.5% 9982/com.whatsapp: 3.6% user + 2.9% kernel / faults: 39151 minor 45 major
+                                                                                                      6% 13584/app_process: 3% user + 3% kernel / faults: 597 minor
+                                                                                                      3.6% 13913/adbd: 0.6% user + 2.9% kernel / faults: 1566 minor
+                                                                                                      2.6% 8903/kworker/u24:2-memlat_wq: 0% user + 2.6% kernel / faults: 16 minor
+                                                                                                      2.4% 3494/com.android.systemui: 1.5% user + 0.8% kernel / faults: 6525 minor 19 major
+                                                                                                      2.2% 1210/vendor.qti.hardware.display.composer-service: 1% user + 1.1% kernel / faults: 38 minor
+                                                                                                      2.1% 12202/kworker/u24:1-ufs_clkscaling_0: 0% user + 2.1% kernel / faults: 15 minor
+                                                                                                    17% TOTAL: 8.7% user + 6.7% kernel + 0.1% iowait + 1.5% irq + 0.3% softirq
+                                                                                                    CPU usage from 211ms to 1621ms later (2025-10-24 13:04:01.755 to 2025-10-24 13:04:03.165):
+                                                                                                      110% 2237/system_server: 31% user + 78% kernel / faults: 2178 minor
+                                                                                                        76% 16902/AnrAuxiliaryTas: 20% user + 55% kernel
+                                                                                                        18% 2265/Signal Catcher: 9.9% user + 8.9% kernel
+                                                                                                        5.9% 16901/AnrConsumer: 0.9% user + 4.9% kernel
+                                                                                                        1.9% 7541/binder:2237_1F: 0.9% user + 0.9% kernel
+                                                                                                        0.9% 2237/system_server: 0% user + 0.9% kernel
+                                                                                                        0.9% 2675/OplusSmartBrigh: 0.9% user + 0% kernel
+                                                                                                        0.9% 3084/SensorService: 0.9% user + 0% kernel
+                                                                                                        0.9% 9657/binder:2237_20: 0.9% user + 0% kernel
+                                                                                                      110% 16558/com.qidk.lamainpaint: 100% user + 9.6% kernel / faults: 34657 minor
+                                                                                                        96% 16558/idk.lamainpaint: 86% user + 9.6% kernel
+                                                                                                        5.7% 16880/idk.lamainpaint: 5.7% user + 0% kernel
+                                                                                                        3.8% 16878/idk.lamainpaint: 3.8% user + 0% kernel
+                                                                                                        3.8% 16879/idk.lamainpaint: 3.8% user + 0% kernel
+                                                                                                      42% 6551/hybridswapd:0: 0% user + 42% kernel
+                                                                                                      18% 187/kshrink_slabd: 0% user + 18% kernel
+                                                                                                      15% 4024/com.android.phone: 7.9% user + 7.9% kernel / faults: 1158 minor
+                                                                                                        14% 4032/Signal Catcher: 7.9% user + 6.8% kernel
+                                                                                                      9.5% 2016/media.swcodec: 9.5% user + 0% kernel / faults: 1 minor
+                                                                                                        8.5% 16346/oid.vp8.encoder: 8.5% user + 0% kernel
+                                                                                                        0.9% 3554/HwBinder:2016_8: 0.9% user + 0% kernel
+                                                                                                      10% 6629/com.google.android.providers.media.module: 5.2% user + 5.2% kernel / faults: 693 minor
+                                                                                                        9.2% 6638/Signal Catcher: 5.2% user + 3.9% kernel
+                                                                                                        1.3% 10383/binder:6629_6: 0% user + 1.3% kernel
+                                                                                                      7.9% 6803/com.oplus.olc: 3.9% user + 3.9% kernel / faults: 337 minor
+                                                                                                        5.2% 6826/Signal Catcher: 2.6% user + 2.6% kernel
+                                                                                                        1.3% 7282/queued-work-loo: 0% user + 1.3% kernel
+                                                                                                      2.8% 12/rcu_preempt: 0% user + 2.8% kernel
+                                                                                                      2.8% 13/rcuog/0: 0% user + 2.8% kernel
+                                                                                                      5.2% 6818/com.qualcomm.qti.workloadclassifier: 3.9% user + 1.3% kernel / faults: 256 minor
+                                                                                                        3.9% 6851/Signal Catcher: 2.6% user + 1.3% kernel
+                                                                                                      2.1% 185/kswapd0:0: 0% user + 2.1% kernel
+                                                                                                      1.4% 23/rcuop/1: 0% user + 1.4% kernel
+                                                                                                      1.4% 30/rcuop/2: 0% user + 1.4% kernel
+                                                                                                      1.4% 37/rcuop/3: 0% user + 1.4% kernel
+                                                                                                      1.4% 44/rcuog/4: 0% user + 1.4% kernel
+                                                                                                      1.4% 52/rcuop/5: 0% user + 1.4% kernel
+                                                                                                      1.5% 350/usbtemp_kthread: 0% user + 1.5% kernel
+                                                                                                      2.8% 8913/kworker/u24:13-ufs_clkscaling_0: 0% user + 2.8% kernel
+                                                                                                      2.8% 9982/com.whatsapp: 1.4% user + 1.4% kernel
+2025-10-24 13:04:03.383 16558-16593 Looper                  com.qidk.lamainpaint                 D  dumpMergedQueue
+2025-10-24 13:04:03.384 16558-16593 OplusLoope...Dispatcher com.qidk.lamainpaint                 D  dumpMsgWhenAnr
+2025-10-24 13:04:03.406  2237-3300  UAH_JNI                 system_server                        E  uah_event_acquire ! cmdId: 0 ,strPkg: com.qidk.lamainpaint, strIdent: com.android.server.wm, timeout: 600
+---------------------------- PROCESS ENDED (16558) for package com.qidk.lamainpaint ----------------------------

@@ -1,0 +1,44 @@
+{
+  "backends": [
+    {
+      "backendName": "htp_backend",
+      "backendPath": "libQnnHtp.so",
+      "profilingLevel": "BASIC",
+      "backendExtensions": "libQnnHtpNetRunExtensions.so",
+      "perfProfile": "burst"
+    }
+  ],
+  "models": [
+    {
+      "modelName": "aotgan_model",
+      "modelPath": "aotgan_fp16_npu.bin",
+      "loadFromCachedBinary": true,
+      "inputPath": "input_list.txt",
+      "inputDataType": "FLOAT",
+      "outputPath": "output",
+      "outputDataType": "FLOAT_ONLY",
+      "saveOutput": "NATIVE_LAST"
+    }
+  ],
+  "contexts": [
+    {
+      "contextName": "htp_context",
+      "priority": "HIGH"
+    }
+  ],
+  "testCase": {
+    "iteration": 1,
+    "logLevel": "info",
+    "threads": [
+      {
+        "threadName": "htp_thread",
+        "backend": "htp_backend",
+        "context": "htp_context",
+        "model": "aotgan_model",
+        "interval": 0,
+        "loopUnit": "count",
+        "loop": 100
+      }
+    ]
+  }
+}

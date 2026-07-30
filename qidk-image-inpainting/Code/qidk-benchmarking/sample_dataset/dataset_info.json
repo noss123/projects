@@ -1,0 +1,19 @@
+{
+  "dataset_name": "Synthetic Inpainting Dataset (Combined)",
+  "creation_date": "2025-10-15T08:41:58",
+  "total_samples": 113,
+  "image_size": [
+    512,
+    512
+  ],
+  "generation_summary": {
+    "single_object_samples": 88,
+    "multi_object_samples": 25
+  },
+  "directory_structure": {
+    "original_image": "Original background images.",
+    "added_object": "Transformed object cutouts.",
+    "image_with_object": "Composite images (inputs for inpainting).",
+    "masked_image": "Masks identifying the object area."
+  }
+}

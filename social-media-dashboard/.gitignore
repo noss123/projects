@@ -1,0 +1,14 @@
+# --- Excel / Office Temp Files ---
+~$*.doc*
+~$*.xls*
+*.tmp
+*.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db

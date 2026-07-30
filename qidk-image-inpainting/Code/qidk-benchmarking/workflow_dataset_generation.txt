@@ -1,0 +1,35 @@
+🧹 Cleaned up previous 'sample_dataset' directory.
+
+✅ All libraries imported successfully!
+ OpenCV version: 4.12.0
+ PyTorch version: 2.8.0+cu128
+ PIL version: 11.3.0
+Found 11 images in sample_generator/backgrounds
+Found 8 images in sample_generator/objects
+
+📁 Dataset Configuration:
+ Image Dimensions: 512x512
+ Background images: 11
+ Object cutouts: 8
+ Object Scale Range: (0.1, 0.4)
+ Object Size Jitter: (0.7, 1.3)
+ Single-Object Pixel Size Range: [200, 400]
+ Multi-Object Pixel Size Range: [100, 250]
+ Mask Dilation Factor: 1.18
+ Output directory: sample_dataset
+
+✅ Ready to generate dataset!
+🗂️ Setting up dataset structure in: sample_dataset
+✅ Dataset structure created successfully!
+Stage 1: Single-Object: 100%|████████████████████████████████████████████████████████| 88/88 [00:33<00:00,  2.62it/s]
+ ✅ Stage 1 complete. Generated: 88/88 samples.
+Stage 2: Multi-Object: 100%|█████████████████████████████████████████████████████████| 25/25 [00:08<00:00,  2.99it/s]
+ ✅ Stage 2 complete. Generated: 25/25 samples.
+
+✨ Finalizing dataset...
+📄 Combined metadata for 113 samples saved to: sample_dataset/dataset_info.json
+
+🎊 Combined dataset generation complete! Total samples: 113
+ Dataset saved to: sample_dataset
+
+

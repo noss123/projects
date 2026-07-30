@@ -1,0 +1,836 @@
+{
+  "overview": {
+    "followers": 24500,
+    "followers_change": 10.5,
+    "reach": 117810,
+    "reach_change": 10.2,
+    "impressions": 468958,
+    "impressions_change": -8.2,
+    "engagement_rate": 4.7,
+    "engagement_rate_change": 0.8,
+    "profile_visits": 23332,
+    "profile_visits_change": 11.9,
+    "website_clicks": 3298,
+    "website_clicks_change": -10.3,
+    "period_days": 30
+  },
+  "reach": {
+    "series": [
+      {
+        "date": "2026-03-08",
+        "value": 6094
+      },
+      {
+        "date": "2026-03-09",
+        "value": 6141
+      },
+      {
+        "date": "2026-03-10",
+        "value": 7104
+      },
+      {
+        "date": "2026-03-11",
+        "value": 3026
+      },
+      {
+        "date": "2026-03-12",
+        "value": 989
+      },
+      {
+        "date": "2026-03-13",
+        "value": 3126
+      },
+      {
+        "date": "2026-03-14",
+        "value": 1969
+      },
+      {
+        "date": "2026-03-15",
+        "value": 710
+      },
+      {
+        "date": "2026-03-16",
+        "value": 5891
+      },
+      {
+        "date": "2026-03-17",
+        "value": 7988
+      },
+      {
+        "date": "2026-03-18",
+        "value": 1117
+      },
+      {
+        "date": "2026-03-19",
+        "value": 3900
+      },
+      {
+        "date": "2026-03-20",
+        "value": 4257
+      },
+      {
+        "date": "2026-03-21",
+        "value": 1544
+      },
+      {
+        "date": "2026-03-22",
+        "value": 3474
+      },
+      {
+        "date": "2026-03-23",
+        "value": 7665
+      },
+      {
+        "date": "2026-03-24",
+        "value": 7535
+      },
+      {
+        "date": "2026-03-25",
+        "value": 5842
+      },
+      {
+        "date": "2026-03-26",
+        "value": 3994
+      },
+      {
+        "date": "2026-03-27",
+        "value": 3619
+      },
+      {
+        "date": "2026-03-28",
+        "value": 5425
+      },
+      {
+        "date": "2026-03-29",
+        "value": 6054
+      },
+      {
+        "date": "2026-03-30",
+        "value": 7721
+      },
+      {
+        "date": "2026-03-31",
+        "value": 7069
+      },
+      {
+        "date": "2026-04-01",
+        "value": 7507
+      },
+      {
+        "date": "2026-04-02",
+        "value": 6559
+      },
+      {
+        "date": "2026-04-03",
+        "value": 1862
+      },
+      {
+        "date": "2026-04-04",
+        "value": 3658
+      },
+      {
+        "date": "2026-04-05",
+        "value": 4212
+      },
+      {
+        "date": "2026-04-06",
+        "value": 4617
+      }
+    ],
+    "total": 90731,
+    "period_days": 30
+  },
+  "impressions": {
+    "series": [
+      {
+        "date": "2026-03-08",
+        "value": 10126
+      },
+      {
+        "date": "2026-03-09",
+        "value": 9245
+      },
+      {
+        "date": "2026-03-10",
+        "value": 13184
+      },
+      {
+        "date": "2026-03-11",
+        "value": 9352
+      },
+      {
+        "date": "2026-03-12",
+        "value": 1789
+      },
+      {
+        "date": "2026-03-13",
+        "value": 8369
+      },
+      {
+        "date": "2026-03-14",
+        "value": 7426
+      },
+      {
+        "date": "2026-03-15",
+        "value": 4082
+      },
+      {
+        "date": "2026-03-16",
+        "value": 4633
+      },
+      {
+        "date": "2026-03-17",
+        "value": 1386
+      },
+      {
+        "date": "2026-03-18",
+        "value": 9366
+      },
+      {
+        "date": "2026-03-19",
+        "value": 4423
+      },
+      {
+        "date": "2026-03-20",
+        "value": 13084
+      },
+      {
+        "date": "2026-03-21",
+        "value": 1275
+      },
+      {
+        "date": "2026-03-22",
+        "value": 11318
+      },
+      {
+        "date": "2026-03-23",
+        "value": 11488
+      },
+      {
+        "date": "2026-03-24",
+        "value": 2375
+      },
+      {
+        "date": "2026-03-25",
+        "value": 14656
+      },
+      {
+        "date": "2026-03-26",
+        "value": 5339
+      },
+      {
+        "date": "2026-03-27",
+        "value": 1440
+      },
+      {
+        "date": "2026-03-28",
+        "value": 6514
+      },
+      {
+        "date": "2026-03-29",
+        "value": 6100
+      },
+      {
+        "date": "2026-03-30",
+        "value": 7898
+      },
+      {
+        "date": "2026-03-31",
+        "value": 840
+      },
+      {
+        "date": "2026-04-01",
+        "value": 12518
+      },
+      {
+        "date": "2026-04-02",
+        "value": 5418
+      },
+      {
+        "date": "2026-04-03",
+        "value": 2683
+      },
+      {
+        "date": "2026-04-04",
+        "value": 10206
+      },
+      {
+        "date": "2026-04-05",
+        "value": 3367
+      },
+      {
+        "date": "2026-04-06",
+        "value": 10188
+      }
+    ],
+    "total": 313597,
+    "period_days": 30
+  },
+  "top_posts": {
+    "posts": [
+      {
+        "post_id": "ig_post_0",
+        "caption": "Amazing content #0 \u2728 #analytics #social",
+        "published": "2026-03-19T13:32:24.493342",
+        "likes": 2153,
+        "comments": 31,
+        "shares": 169,
+        "saves": 782,
+        "reach": 4575,
+        "impressions": 13360,
+        "engagement_rate": 14.71,
+        "post_type": "image"
+      },
+      {
+        "post_id": "ig_post_1",
+        "caption": "Amazing content #1 \u2728 #analytics #social",
+        "published": "2026-03-17T13:32:24.493349",
+        "likes": 4448,
+        "comments": 219,
+        "shares": 130,
+        "saves": 378,
+        "reach": 9677,
+        "impressions": 8148,
+        "engagement_rate": 12.08,
+        "post_type": "reel"
+      },
+      {
+        "post_id": "ig_post_2",
+        "caption": "Amazing content #2 \u2728 #analytics #social",
+        "published": "2026-03-12T13:32:24.493354",
+        "likes": 2460,
+        "comments": 89,
+        "shares": 28,
+        "saves": 94,
+        "reach": 10270,
+        "impressions": 25820,
+        "engagement_rate": 5.63,
+        "post_type": "story"
+      },
+      {
+        "post_id": "ig_post_3",
+        "caption": "Amazing content #3 \u2728 #analytics #social",
+        "published": "2026-03-10T13:32:24.493359",
+        "likes": 295,
+        "comments": 106,
+        "shares": 47,
+        "saves": 330,
+        "reach": 13520,
+        "impressions": 23766,
+        "engagement_rate": 9.18,
+        "post_type": "carousel"
+      },
+      {
+        "post_id": "ig_post_4",
+        "caption": "Amazing content #4 \u2728 #analytics #social",
+        "published": "2026-03-09T13:32:24.493363",
+        "likes": 1896,
+        "comments": 275,
+        "shares": 30,
+        "saves": 356,
+        "reach": 6291,
+        "impressions": 12587,
+        "engagement_rate": 6.51,
+        "post_type": "image"
+      },
+      {
+        "post_id": "ig_post_5",
+        "caption": "Amazing content #5 \u2728 #analytics #social",
+        "published": "2026-03-08T13:32:24.493367",
+        "likes": 4055,
+        "comments": 233,
+        "shares": 120,
+        "saves": 751,
+        "reach": 4460,
+        "impressions": 25919,
+        "engagement_rate": 13.61,
+        "post_type": "carousel"
+      },
+      {
+        "post_id": "ig_post_6",
+        "caption": "Amazing content #6 \u2728 #analytics #social",
+        "published": "2026-03-24T13:32:24.493371",
+        "likes": 3980,
+        "comments": 292,
+        "shares": 70,
+        "saves": 681,
+        "reach": 4874,
+        "impressions": 18800,
+        "engagement_rate": 5.77,
+        "post_type": "carousel"
+      },
+      {
+        "post_id": "ig_post_7",
+        "caption": "Amazing content #7 \u2728 #analytics #social",
+        "published": "2026-04-02T13:32:24.493376",
+        "likes": 2869,
+        "comments": 46,
+        "shares": 128,
+        "saves": 462,
+        "reach": 3783,
+        "impressions": 3725,
+        "engagement_rate": 7.67,
+        "post_type": "carousel"
+      },
+      {
+        "post_id": "ig_post_8",
+        "caption": "Amazing content #8 \u2728 #analytics #social",
+        "published": "2026-03-17T13:32:24.493380",
+        "likes": 3765,
+        "comments": 198,
+        "shares": 191,
+        "saves": 656,
+        "reach": 4657,
+        "impressions": 17956,
+        "engagement_rate": 14.32,
+        "post_type": "image"
+      },
+      {
+        "post_id": "ig_post_9",
+        "caption": "Amazing content #9 \u2728 #analytics #social",
+        "published": "2026-03-12T13:32:24.493384",
+        "likes": 3062,
+        "comments": 61,
+        "shares": 135,
+        "saves": 201,
+        "reach": 15078,
+        "impressions": 8272,
+        "engagement_rate": 14.03,
+        "post_type": "carousel"
+      }
+    ],
+    "period_days": 30
+  },
+  "demographics": {
+    "by_age": [
+      {
+        "category": "13-17",
+        "value": 5.2,
+        "count": 1274
+      },
+      {
+        "category": "18-24",
+        "value": 32.1,
+        "count": 7864
+      },
+      {
+        "category": "25-34",
+        "value": 35.8,
+        "count": 8771
+      },
+      {
+        "category": "35-44",
+        "value": 16.4,
+        "count": 4018
+      },
+      {
+        "category": "45-54",
+        "value": 7.1,
+        "count": 1739
+      },
+      {
+        "category": "55+",
+        "value": 3.4,
+        "count": 834
+      }
+    ],
+    "by_gender": [
+      {
+        "category": "Male",
+        "value": 48.2,
+        "count": 11809
+      },
+      {
+        "category": "Female",
+        "value": 49.5,
+        "count": 12128
+      },
+      {
+        "category": "Other",
+        "value": 2.3,
+        "count": 563
+      }
+    ],
+    "by_city": [
+      {
+        "category": "Mumbai",
+        "value": 13.2,
+        "count": 2902
+      },
+      {
+        "category": "Delhi",
+        "value": 7.5,
+        "count": 724
+      }
+    ],
+    "by_country": [
+      {
+        "category": "India",
+        "value": 49.1,
+        "count": 13676
+      },
+      {
+        "category": "United States",
+        "value": 15.2,
+        "count": 1913
+      }
+    ],
+    "period_days": 30
+  },
+  "engagement": {
+    "series": [
+      {
+        "date": "2026-03-08",
+        "value": 10.23
+      },
+      {
+        "date": "2026-03-09",
+        "value": 3.91
+      },
+      {
+        "date": "2026-03-10",
+        "value": 1.79
+      },
+      {
+        "date": "2026-03-11",
+        "value": 11.05
+      },
+      {
+        "date": "2026-03-12",
+        "value": 10.37
+      },
+      {
+        "date": "2026-03-13",
+        "value": 6.42
+      },
+      {
+        "date": "2026-03-14",
+        "value": 5.69
+      },
+      {
+        "date": "2026-03-15",
+        "value": 5.38
+      },
+      {
+        "date": "2026-03-16",
+        "value": 10.9
+      },
+      {
+        "date": "2026-03-17",
+        "value": 7.76
+      },
+      {
+        "date": "2026-03-18",
+        "value": 7.61
+      },
+      {
+        "date": "2026-03-19",
+        "value": 9.19
+      },
+      {
+        "date": "2026-03-20",
+        "value": 10.25
+      },
+      {
+        "date": "2026-03-21",
+        "value": 9.65
+      },
+      {
+        "date": "2026-03-22",
+        "value": 1.52
+      },
+      {
+        "date": "2026-03-23",
+        "value": 10.77
+      },
+      {
+        "date": "2026-03-24",
+        "value": 4.02
+      },
+      {
+        "date": "2026-03-25",
+        "value": 10.88
+      },
+      {
+        "date": "2026-03-26",
+        "value": 3.68
+      },
+      {
+        "date": "2026-03-27",
+        "value": 8.82
+      },
+      {
+        "date": "2026-03-28",
+        "value": 10.99
+      },
+      {
+        "date": "2026-03-29",
+        "value": 6.59
+      },
+      {
+        "date": "2026-03-30",
+        "value": 1.64
+      },
+      {
+        "date": "2026-03-31",
+        "value": 5.8
+      },
+      {
+        "date": "2026-04-01",
+        "value": 3.63
+      },
+      {
+        "date": "2026-04-02",
+        "value": 9.93
+      },
+      {
+        "date": "2026-04-03",
+        "value": 1.25
+      },
+      {
+        "date": "2026-04-04",
+        "value": 7.26
+      },
+      {
+        "date": "2026-04-05",
+        "value": 6.14
+      },
+      {
+        "date": "2026-04-06",
+        "value": 4.82
+      }
+    ],
+    "avg_engagement_rate": 4.7,
+    "total_likes": 16886,
+    "total_comments": 1179,
+    "total_shares": 2764,
+    "total_saves": 3995,
+    "period_days": 30
+  },
+  "follower_growth": {
+    "series": [
+      {
+        "date": "2026-03-08",
+        "value": 23492
+      },
+      {
+        "date": "2026-03-09",
+        "value": 23510
+      },
+      {
+        "date": "2026-03-10",
+        "value": 23542
+      },
+      {
+        "date": "2026-03-11",
+        "value": 23586
+      },
+      {
+        "date": "2026-03-12",
+        "value": 23620
+      },
+      {
+        "date": "2026-03-13",
+        "value": 23655
+      },
+      {
+        "date": "2026-03-14",
+        "value": 23687
+      },
+      {
+        "date": "2026-03-15",
+        "value": 23721
+      },
+      {
+        "date": "2026-03-16",
+        "value": 23770
+      },
+      {
+        "date": "2026-03-17",
+        "value": 23791
+      },
+      {
+        "date": "2026-03-18",
+        "value": 23842
+      },
+      {
+        "date": "2026-03-19",
+        "value": 23872
+      },
+      {
+        "date": "2026-03-20",
+        "value": 23895
+      },
+      {
+        "date": "2026-03-21",
+        "value": 23929
+      },
+      {
+        "date": "2026-03-22",
+        "value": 23966
+      },
+      {
+        "date": "2026-03-23",
+        "value": 24006
+      },
+      {
+        "date": "2026-03-24",
+        "value": 24042
+      },
+      {
+        "date": "2026-03-25",
+        "value": 24086
+      },
+      {
+        "date": "2026-03-26",
+        "value": 24124
+      },
+      {
+        "date": "2026-03-27",
+        "value": 24140
+      },
+      {
+        "date": "2026-03-28",
+        "value": 24192
+      },
+      {
+        "date": "2026-03-29",
+        "value": 24217
+      },
+      {
+        "date": "2026-03-30",
+        "value": 24266
+      },
+      {
+        "date": "2026-03-31",
+        "value": 24298
+      },
+      {
+        "date": "2026-04-01",
+        "value": 24329
+      },
+      {
+        "date": "2026-04-02",
+        "value": 24358
+      },
+      {
+        "date": "2026-04-03",
+        "value": 24400
+      },
+      {
+        "date": "2026-04-04",
+        "value": 24440
+      },
+      {
+        "date": "2026-04-05",
+        "value": 24465
+      },
+      {
+        "date": "2026-04-06",
+        "value": 24500
+      }
+    ],
+    "total_gained": 1200,
+    "total_lost": 180,
+    "net_change": 1020,
+    "period_days": 30
+  },
+  "stories": {
+    "stories": [
+      {
+        "story_id": "ig_story_0",
+        "published": "2026-03-31T13:32:24.493424",
+        "reach": 9647,
+        "impressions": 6998,
+        "replies": 11,
+        "exits": 105,
+        "taps_forward": 66,
+        "taps_back": 64
+      },
+      {
+        "story_id": "ig_story_1",
+        "published": "2026-04-03T13:32:24.493430",
+        "reach": 2152,
+        "impressions": 11019,
+        "replies": 7,
+        "exits": 197,
+        "taps_forward": 111,
+        "taps_back": 59
+      },
+      {
+        "story_id": "ig_story_2",
+        "published": "2026-04-05T13:32:24.493435",
+        "reach": 9532,
+        "impressions": 723,
+        "replies": 34,
+        "exits": 76,
+        "taps_forward": 289,
+        "taps_back": 7
+      },
+      {
+        "story_id": "ig_story_3",
+        "published": "2026-03-30T13:32:24.493440",
+        "reach": 8342,
+        "impressions": 8479,
+        "replies": 6,
+        "exits": 98,
+        "taps_forward": 60,
+        "taps_back": 9
+      },
+      {
+        "story_id": "ig_story_4",
+        "published": "2026-03-31T13:32:24.493445",
+        "reach": 2973,
+        "impressions": 8391,
+        "replies": 44,
+        "exits": 123,
+        "taps_forward": 209,
+        "taps_back": 38
+      },
+      {
+        "story_id": "ig_story_5",
+        "published": "2026-04-03T13:32:24.493449",
+        "reach": 9562,
+        "impressions": 794,
+        "replies": 6,
+        "exits": 65,
+        "taps_forward": 64,
+        "taps_back": 30
+      }
+    ],
+    "period_days": 30
+  },
+  "content_breakdown": {
+    "breakdown": [
+      {
+        "content_type": "image",
+        "count": 49,
+        "avg_reach": 4624,
+        "avg_engagement_rate": 3.45,
+        "avg_saves": 38.9
+      },
+      {
+        "content_type": "carousel",
+        "count": 24,
+        "avg_reach": 6435,
+        "avg_engagement_rate": 8.9,
+        "avg_saves": 135.6
+      },
+      {
+        "content_type": "reel",
+        "count": 6,
+        "avg_reach": 5224,
+        "avg_engagement_rate": 6.94,
+        "avg_saves": 179.1
+      },
+      {
+        "content_type": "story",
+        "count": 10,
+        "avg_reach": 14919,
+        "avg_engagement_rate": 15.22,
+        "avg_saves": 18.0
+      }
+    ],
+    "period_days": 30
+  }
+}
